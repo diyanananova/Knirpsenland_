@@ -1,7 +1,7 @@
 baseurl: https://diyanananova.github.io/Kripsenland_/
 publishDir : "docs"
 languageCode: en-us
-title: Kripsenland. Krabbelgruppe und Spielgruppe für Kinder und Eltern. Kinderyoga
+title: Kripsenland
 theme: parsa-hugo
 summaryLength: '10'
 paginate: 6
@@ -71,8 +71,8 @@ menu:
       parent: Homepage
       url: homepage/home-2
     - name: Über mich
-      url: über-mich
+      url: about
       weight: 2
     - name: Kontakt
-      url: kontakt
+      url: contact
       weight: 3
