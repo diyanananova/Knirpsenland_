@@ -1,0 +1,78 @@
+baseurl: https://diyanananova.github.io/Kripsenland_/
+publishDir : "docs"
+languageCode: en-us
+title: Kripsenland. Krabbelgruppe und Spielgruppe für Kinder und Eltern. Kinderyoga
+theme: parsa-hugo
+summaryLength: '10'
+paginate: 6
+googleAnalytics: ''
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+params:
+  address: Perl,66706
+  author: Diyana Nanova
+  author_image: images/banner-img.png
+  bio: ich bin Erzieherin und Kindertrainerin
+  contact_form_action: '#'
+  cookies:
+    enable: yes
+    expire_days: 2
+  copyright: Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)
+  description: This is meta description
+  email: diyana.nanova@gmail.com
+  home: Home
+  instafeed:
+    access_token: IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn
+    enable: yes
+  layout: '1'
+  logo: images/logo.png
+  mobile: +49
+  plugins:
+    css:
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/slick/slick.css
+      - link: plugins/themify-icons/themify-icons.css
+    js:
+      - link: plugins/jQuery/jquery.min.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+      - link: plugins/headroom/headroom.js
+      - link: plugins/instafeed/instafeed.min.js
+      - link: plugins/masonry/masonry.js
+      - link: plugins/reading-time/readingTime.min.js
+      - link: plugins/smooth-scroll/smooth-scroll.js
+      - link: plugins/search/fuse.min.js
+      - link: plugins/search/mark.js
+      - link: plugins/search/search.js
+  preloader: yes
+  search: yes
+  social:
+    - icon: ti-facebook
+      link: https://facebook.com/themefisher
+    - icon: ti-twitter-alt
+      link: '#'
+    - icon: ti-linkedin
+      link: https://www.linkedin.com/in/diyana-nanova-05520949/
+    - icon: ti-github
+      link: '#'
+menu:
+  main:
+    - hasChildren: yes
+      name: Homepage
+      url: ''
+      weight: 1
+    - name: Homepage 1
+      parent: Homepage
+      url: homepage/home-1
+    - name: Homepage 2
+      parent: Homepage
+      url: homepage/home-2
+    - name: Über mich
+      url: über-mich
+      weight: 2
+    - name: Kontakt
+      url: kontakt
+      weight: 3
